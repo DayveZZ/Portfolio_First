@@ -1,6 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import "../styles/Home.scss";
+import { HashLink } from "react-router-hash-link";
 // import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
@@ -157,7 +158,7 @@ const Home = () => {
                   </a>
                 </button>
                 <button>
-                  <a href="https://portfolio-1st.vercel.app/">Demo</a>
+                  <HashLink to={"/#home"}>Home</HashLink>
                 </button>
               </div>
             </div>
