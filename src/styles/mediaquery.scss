@@ -1,0 +1,237 @@
+@import "Colors";
+
+@media only screen and (max-width: 599px) {
+  .header {
+    // padding: 1rem 1rem;
+    flex-direction: column;
+    > main {
+      > a {
+        margin: 0.5rem;
+        padding: 1px;
+      }
+    }
+  }
+  .home {
+    flex-direction: column;
+    justify-content: center;
+    // height: 130vh;
+    > img {
+      // margin-right: -150px;
+      margin: 0 auto;
+      margin-top: -160px;
+
+      width: 50%;
+    }
+    .social {
+      margin-right: 20rem;
+      //   flex-direction: row;
+      margin-top: 300px;
+      //   padding: 10rem;
+    }
+    > .info {
+      margin: 100px 0;
+      > h1 {
+        font-size: 3rem;
+        > h3 {
+          font-size: 1.7rem;
+        }
+      }
+      > p {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .about {
+    height: 180vh;
+    width: auto;
+    > h1 {
+      margin-top: 7rem;
+    }
+    .aboutInside {
+      flex-direction: column;
+      margin-top: 300px;
+      // width: 30vw;
+      padding: 1rem;
+      > img {
+        width: 200px;
+        margin-top: -900px;
+        margin-left: 0;
+      }
+      > div {
+        // width: 30vw;
+        margin: 50px 0 0 0;
+        > .Education {
+          grid-template-columns: repeat(1, max-content);
+        }
+      }
+    }
+  }
+
+  .projects {
+    > h1 {
+      padding: 1rem;
+      margin-top: 10rem;
+      font-size: 1.7rem;
+    }
+    .container {
+      flex-direction: column;
+    }
+  }
+  .contact {
+    > main {
+      margin-top: 20%;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .header {
+    padding: 1rem 2rem;
+  }
+  .home {
+    // display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    > img {
+      margin-top: -190px;
+      margin-right: 0;
+      width: 40%;
+    }
+    .social {
+      margin-right: 30rem;
+      //   flex-direction: row;
+      margin-top: 400px;
+      //   padding: 10rem;
+    }
+    > .info {
+      margin: 100px 0;
+      > h1 {
+        font-size: 5rem;
+        > h3 {
+          font-size: 3rem;
+        }
+      }
+      > p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .about {
+    height: 110vh;
+    width: auto;
+    .aboutInside {
+      flex-direction: column;
+      margin-top: 250px;
+      > img {
+        width: 200px;
+        margin-top: -790px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .projects {
+    .container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .home {
+    // display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    > img {
+      margin-top: -250px;
+      margin-right: 0;
+      width: 35%;
+    }
+    .social {
+      margin-right: 40rem;
+      //   flex-direction: row;
+      margin-top: 500px;
+      //   padding: 10rem;
+    }
+    > .info {
+      margin: 100px 0;
+      > h1 {
+        font-size: 7rem;
+        > h3 {
+          font-size: 4rem;
+        }
+      }
+      > p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .about {
+    height: 110vh;
+    .aboutInside {
+      flex-direction: column;
+      margin-top: 280px;
+      > img {
+        width: 200px;
+        margin-top: -780px;
+        margin-left: 0;
+        // margin-bottom: -100px;
+      }
+    }
+  }
+
+  .projects {
+    .container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .home {
+    .social {
+      margin-right: 5rem;
+    }
+    > img {
+      margin-right: 5rem;
+    }
+  }
+
+  .about {
+    height: 120vh;
+    .aboutInside {
+      flex-direction: column;
+      margin-top: 300px;
+      > img {
+        width: 250px;
+        margin-top: -780px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .home {
+    // display: flex;
+    // justify-content: space-between;
+
+    img {
+      margin-right: 10rem;
+    }
+  }
+  .about {
+    .aboutInside {
+      flex-direction: row;
+      > img {
+        width: 400px;
+        margin-left: 10%;
+      }
+    }
+  }
+}

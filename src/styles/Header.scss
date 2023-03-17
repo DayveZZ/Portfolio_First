@@ -1,0 +1,50 @@
+@import "./Colors.scss";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+.header {
+  margin-top: 0%;
+  width: 100%;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: $transparent;
+  transition: all 0.3s;
+  transition-timing-function: ease-in;
+  z-index: 20;
+  > .logo {
+    // text-transform: uppercase;
+    font-size: 2.5rem;
+    font-family: "Caveat", cursive;
+    color: $red;
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
+
+    &:hover {
+      letter-spacing: 2px;
+    }
+  }
+  > main {
+    display: flex;
+
+    > a {
+      text-transform: uppercase;
+      color: $light;
+      margin: 1rem;
+      padding: 3px;
+      transition: all 0.1s;
+      transition-timing-function: ease-in-out;
+
+      &:hover {
+        color: $red;
+        border-bottom: 1px solid $red;
+      }
+    }
+  }
+}
+.headerDark {
+  background-color: $dark;
+  box-shadow: 0 0 10px 3px black;
+  padding: 0.7rem 2rem;
+}

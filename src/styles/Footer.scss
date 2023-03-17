@@ -1,0 +1,53 @@
+@import "Colors.scss";
+
+footer {
+  background-color: $darkest;
+  // min-height: 80px;
+  max-height: 150px;
+  width: 100%;
+  color: $light;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+  box-shadow: 0 0 10px 3px black;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    > h1 {
+      font-weight: 700;
+      font-size: 2rem;
+      color: $light;
+    }
+    > p {
+      font-weight: 300;
+      color: $red;
+      opacity: 90%;
+      font-size: 0.8rem;
+    }
+    > h5 {
+      font-weight: 300;
+      font-size: 2rem;
+      color: $light;
+      // margin: 1rem 0;
+      text-align: center;
+    }
+    > div {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      //   border: 1px solid white;
+      a {
+        color: $red;
+        font-weight: 900;
+        font-size: 1.8rem;
+        margin: 0 10px;
+        &:hover {
+          color: $light;
+        }
+      }
+    }
+  }
+}
