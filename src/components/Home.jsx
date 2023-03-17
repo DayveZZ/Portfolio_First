@@ -157,9 +157,7 @@ const Home = () => {
                   </a>
                 </button>
                 <button>
-                  <a href="https://vercel.com/new/success?developer-id=&external-id=&redirect-url=&branch=main&deploymentUrl=portfolio-first-ho86-899jdtewe-dayvezz.vercel.app&projectName=portfolio-first-ho86&s=https%3A%2F%2Fgithub.com%2FDayveZZ%2FPortfolio-first%2Ftree%2Fmain&gitOrgLimit=&hasTrialAvailable=&totalProjects=">
-                    Demo
-                  </a>
+                  <a href="https://portfolio-1st.vercel.app/">Demo</a>
                 </button>
               </div>
             </div>
