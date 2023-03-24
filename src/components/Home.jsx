@@ -6,14 +6,12 @@ import {
 } from "react-icons/ai";
 import "../styles/Home.scss";
 import { HashLink } from "react-router-hash-link";
-// import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import CV from "../assets/CV/Abhijit_Deb_CV.pdf";
+import CV from "../assets/CV/Abhijit_Deb_Reume.pdf";
 import Me from "../assets/Me2.jpg";
 import MeAbout from "../assets/MeAbout2.jpg";
 import Netflix_Clone from "../assets/Projects/Netflix_Clone/Home.png";
-// import Themed_Base_Shop from "../assets/Projects/Themed Shop/Shop.png";
 import Video_Streaming_App from "../assets/Projects/Video_Streaming_App/Home.png";
 import Portfolio from "../assets/Projects/Portfolio/About.png";
 
