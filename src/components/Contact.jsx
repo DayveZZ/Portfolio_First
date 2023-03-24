@@ -1,12 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
-// const Result = () => {
-//   return (
-//     <p>Your message has been successfully sent. I will contact you soon.</p>
-//   );
-// };
-
 const Contact = () => {
   const form = useRef();
 
@@ -31,13 +25,14 @@ const Contact = () => {
       );
   };
 
+  const handleClick = () => {
+    alert("Your message has been successfully sent. I will contact you soon.");
+  };
+
   return (
     <div className="contact">
       <main>
-        <h1>
-          {/* Contact <h2>Me</h2> */}
-          Contact Me
-        </h1>
+        <h1>Contact Me</h1>
 
         <form ref={form} onSubmit={sendEmail}>
           <input
@@ -60,8 +55,12 @@ const Contact = () => {
             placeholder="Tell us about your query..."
           />
           <div>
-            {/* <button type="submit">SUBMIT</button> */}
-            <input type="submit" value="Send" className="btn" />
+            <input
+              onClick={handleClick}
+              type="submit"
+              value="Send"
+              className="btn"
+            />
           </div>
         </form>
       </main>

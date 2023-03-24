@@ -14,7 +14,6 @@ import Video_Streaming_App from "../assets/Projects/Video_Streaming_App/Home.png
 import Portfolio from "../assets/Projects/Portfolio/About.png";
 
 const Home = () => {
-  // const slides = [{ Netflix_Clone }, { Themed_Shop }, { Portfolio }];
   return (
     <>
       {/* H O M E */}
@@ -32,7 +31,10 @@ const Home = () => {
           <h1>
             Abhijit<h3>Deb</h3>
           </h1>
-          <p>—— &nbsp; Front-End Developer</p>
+          <p>— &nbsp; Frontend Developer</p>
+          <button className="CV">
+            <a href={CV}>Download CV</a>
+          </button>
         </main>
       </div>
 
@@ -44,8 +46,10 @@ const Home = () => {
             {/* 1 S T      P A R A */}
             <h4>Nice to meet you</h4>
             <p className="pAbout">
-              I'm a recent graduate with a degree in E.C.E. and a passion for
-              Front-End Development.
+              I'm a recent graduate with a degree in ECE and a passion for
+              Frontend Development, excited to begin my career in Frontend
+              Development & committed to continuous learning and growth in this
+              dynamic field.
             </p>
             <hr className="solid"></hr>
             {/* 2 N D       P A R A */}
@@ -61,11 +65,6 @@ const Home = () => {
               <div className="gridItem">
                 <h4>Phone No:</h4>
                 <p>+91 7001343261</p>
-              </div>
-
-              <div className="gridItem">
-                <h4>Location:</h4>
-                <p>Siliguri, West Bengal, India </p>
               </div>
               <div className="gridItem">
                 <h4>Availability:</h4>
@@ -83,10 +82,19 @@ const Home = () => {
               <h4>Diploma in Engineering: </h4>
               <p> Electronics and Telecommunication Engineering (ETCE)</p>
             </div>
-            {/* 4 T H       P A R A */}
-            <button className="CV">
-              <a href={CV}>Download CV</a>
-            </button>
+            <hr className="solid"></hr>
+
+            <div className="skills">
+              <h4>Skill:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Website Designing</li>
+                <li>React JS</li>
+                <li>SASS</li>
+              </ul>
+            </div>
           </div>
           <img src={MeAbout} alt="img" />
         </div>
