@@ -8,7 +8,7 @@ import "../styles/Home.scss";
 import { HashLink } from "react-router-hash-link";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import CV from "../assets/CV/Abhijit_Deb_Reume.pdf";
+import CV from "../assets/CV/Abhijit_Deb_CV.pdf";
 import Me from "../assets/Me2.jpg";
 import MeAbout from "../assets/MeAbout2.jpg";
 import Netflix_Clone from "../assets/Projects/Netflix_Clone/Home.png";
