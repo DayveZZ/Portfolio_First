@@ -1,5 +1,9 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineArrowRight,
+} from "react-icons/ai";
 import "../styles/Home.scss";
 import { HashLink } from "react-router-hash-link";
 // import { Carousel } from "react-responsive-carousel";
@@ -111,17 +115,19 @@ const Home = () => {
               <h2>DayveHUB</h2>
               <h5>Video Streaming App</h5>
               <p className="tech">
-                Used: <p>HTML - CSS - JavaScript - React JS</p>
+                Used: <p>HTML - Chakra UI - JavaScript - React JS</p>
               </p>
 
               <div className="btn">
                 <button>
                   <a href="https://github.com/DayveZZ/netflix_clone.git">
-                    <AiFillGithub /> GitHub
+                    Code <AiOutlineArrowRight />
                   </a>
                 </button>
                 <button>
-                  <a href="https://video-streaming-app-pi.vercel.app/">Demo</a>
+                  <a href="https://video-streaming-app-pi.vercel.app/">
+                    Demo <AiOutlineArrowRight />
+                  </a>
                 </button>
               </div>
             </div>
@@ -133,18 +139,18 @@ const Home = () => {
               <h2>Netflix</h2>
               <h5>Clone Website using API</h5>
               <p className="tech">
-                Used: <p>HTML - CSS - JavaScript - React JS</p>
+                Used: <p>HTML - SASS - JavaScript - React JS</p>
               </p>
 
               <div className="btn">
                 <button>
                   <a href="https://github.com/DayveZZ/netflix_clone.git">
-                    <AiFillGithub /> GitHub
+                    Code <AiOutlineArrowRight />
                   </a>
                 </button>
                 <button>
                   <a href="https://netflix-clone-sable-one-94.vercel.app/Home">
-                    Demo
+                    Demo <AiOutlineArrowRight />
                   </a>
                 </button>
               </div>
@@ -157,12 +163,12 @@ const Home = () => {
               <h2>Portfolio</h2>
               <h5>Personal Portfolio Website Full Rensponsive</h5>
               <p className="tech">
-                Used: <p>HTML - CSS - JavaScript - React JS</p>
+                Used: <p>HTML - SASS- JavaScript - React JS</p>
               </p>
               <div className="btn">
                 <button>
                   <a href="https://github.com/DayveZZ/Portfolio_First.git">
-                    <AiFillGithub /> GitHub
+                    Code <AiOutlineArrowRight />
                   </a>
                 </button>
                 <button>
