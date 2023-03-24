@@ -108,7 +108,6 @@ const Home = () => {
       <div className="projects" id="projects">
         <h1>My Projects</h1>
         <div className="container">
-          {/* <div className="carousel"> */}
           <div className="slides">
             <img src={Video_Streaming_App} alt="Project_1" />
             <div className="details">
