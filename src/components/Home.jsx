@@ -95,6 +95,7 @@ const Home = () => {
                 <li>Website Designing</li>
                 <li>React JS</li>
                 <li>SASS</li>
+                <li>Git</li>
               </ul>
             </div>
           </div>
@@ -122,7 +123,7 @@ const Home = () => {
                   </a>
                 </button>
                 <button>
-                  <a href="https://video-streaming-app-pi.vercel.app/">
+                  <a href="https://video-streaming-app-mu.vercel.app/">
                     Demo <AiOutlineArrowRight />
                   </a>
                 </button>
@@ -146,7 +147,7 @@ const Home = () => {
                   </a>
                 </button>
                 <button>
-                  <a href="https://netflix-clone-sable-one-94.vercel.app/Home">
+                  <a href="https://netflix-clone-pearl-two.vercel.app/">
                     Demo <AiOutlineArrowRight />
                   </a>
                 </button>
